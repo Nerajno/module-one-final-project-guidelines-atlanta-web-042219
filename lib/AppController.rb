@@ -78,6 +78,9 @@ class AppController
     end
 
     def breath_exercise
+        puts "************************************************"
+        puts "We are gonna do this breathing exercise 3 times"
+        puts "************************************************"
         3.times do
         puts "Inhale"
         5.downto(0) do |i|
@@ -141,9 +144,9 @@ class AppController
         when 3
             main_menu
         else
-            puts "*******************"
-            puts "Invalid try again!"
-            puts "*******************"
+            puts "***************************************"
+            puts "Invalid, Select a number from the menu!"
+            puts "****************************************"
             access_mood
         end
     end
